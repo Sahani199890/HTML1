@@ -121,10 +121,11 @@ position: relative;
     color: white;
     display: flex;
     font-weight: 600;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: center;
     list-style-type: none;
 } 
+
 
 .lists li select{
     background: transparent;
@@ -132,6 +133,7 @@ position: relative;
     color: white;
     font-weight: 600;
 }
+
 .dropdown{
     border: none;
 }
