@@ -24,7 +24,7 @@ header div{
     align-items: center;
 }
 .divContainer1 img{
-    height: 50%;
+    height: 40%;
     display: flex;
     justify-content: space-around;    
 }
@@ -75,11 +75,13 @@ header div{
     background-color: red;
     border-radius: 50px;
     padding: 0px 5px 0px 5px;
+    margin-left: 40px;
 }
 .divContainer3 fieldset{
     border:solid red;
     border-radius: 50px;
     width: 30%;
+    margin-top: -10px;
 }
 .divContainer32{
     display: flex;
@@ -119,6 +121,7 @@ main{
 }
 .imgContainer img{
     border-radius: 50% ;
+    height: 90%;
     box-shadow: 20px 4px 8px 20px rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
 .content{
@@ -163,7 +166,7 @@ main{
     padding: 0 10px 0 10px;
     background-color: #ff2020;
     border: none;
-    margin: 5px;
+    margin: 2px;
 }
 .buttonText3,.buttonText4,.buttonText5,.buttonText6{
     background-color: #fff;
