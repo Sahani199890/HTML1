@@ -48,6 +48,10 @@ main div{
     height: 100%;
     width: 100%;
 }
+.divContainer img{
+    height: 100%;
+    width: 100%;
+}
 .divContainer1{    
     width: 20vw;
 }
