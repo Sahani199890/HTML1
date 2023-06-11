@@ -2,150 +2,139 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    height: 100vh;
-      width: 100vw;
-    /* border: 4px solid red; */
-    overflow-x: hidden;
+    font-family: sans-serif;
 }
 header{
-      height: 10%;
-      width: 100%;
-      /* border: 2px solid blue; */
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      /* position: sticky; */
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    position: fixed;    
 }
 .logo{
-    /* border: 2px solid black; */
-    height: 100%;
-    width: 7%;
-    margin-left: 2rem;
-}
-.logo img{
-    height: 100%;
-    width: 100%;
-}
-.header_content{
-    /* border: 2px solid green; */
-    width: 35%;
-    height: 65%;
-}
-.header_content span{
-    font-size: 1.3rem;
-    margin: 1rem;
-    color: grey;
-    font-weight: 600;
-}
-
-.download_btn{
-    /* border: 2px solid blue; */
-    margin-right: 4rem;
-    height: 70%;
     width: 10%;
-    border-radius: 50px;
-    background-color: aqua;
-    text-align: center;
-    padding-top: .4rem;
-    color: white;
-    font-size: 1.4rem;
-    font-weight: 600;
 }
-main{
-    /* position: absolute; */
-    /* height: 100%; */
+header div img{
+    padding: 20px;
+    height: 100%;
     width: 100%;
-    /* border: 2px solid yellow; */
-    margin-top: 4rem;
-    /* margin-bottom: 3rem; */
 }
-main span,main h1{
-     font-weight: 700;
-     font-size: 4rem;
+.centerDiv{
+    font-size: 1.2rem;
+    font-weight: 540;
+    color: rgb(161, 156, 156);
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.tour{
-    color: aqua;
+.centerDiv div:hover{
+    color: black;
+    font-size: 1.3rem;
 }
-main img{
-    height: 70%;
-    width: 60%;
-    margin-top: 3rem;
-    border-radius: 6%;
-    margin-bottom: 4rem;
-}
-.train{
-    height: 36vh;
-    /* border: 2px solid red; */
+.downloadBtn{
+    height: 50%;
+    width: 10%;    
+    display: flex;
+    align-items: center;    
 }
 .btn{
-    margin-top: 2rem;
-    border-radius: 25px;
-    height: 4rem;
-    width: 13%;
-   padding-top: .8rem;
-   border:2px solid red;
+    text-align: center;
+    height: 95%;    
+    width: 95%;
+    font-weight:550;
+    font-size: 1.1rem;
+    background-color:#04DDB2 ;
+    border: none;
+    border-radius: 50px;
+}
+.btn:hover{    
+    height: 100%;
+    width: 100%;
+    background-color: #04DDB2;    
+}
+main{    
+    height: 190vh;
+    width: 100vw;    
+}
+
+.main1 h1{
+    padding-top: 15vh;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.main1 span{
+    color: #04DDB2;
+}
+.main2 p{
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 510;
+}
+.main3{
+    width: 70%;
+}
+.main3 img{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    margin: 40px;
+}
+.main4 h1{
+    width: 40%;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.downloadButton{
+    height: 9vh;
+    width: 15vw;
+    font-size: 1.4rem;   
+    margin-top: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
+    height: 40vh;
+    width: 90%;
+    display: flex;
+    margin: 50px 50px 50px 70px ;
+    justify-content: space-around;
+}
+.footer1{
+    width: 7vw;
+    height: 13vh;
+}
+.footer1 img{
+    height: 100%;
     width: 100%;
-    /* border: 2px solid green; */
-    height: 50vh;
 }
-.footer_container{
-    margin: 3rem 12rem;
+.footerDiv5{
+    width: 20%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-evenly;   
 }
-.lobe span{
-    margin: 4rem;
-    font-size: 1.3rem;
+.footerDiv5 i{
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #04DDB2;
+    border-radius: 50px;
+}
+.footerDiv div{
+    padding: 5px;
+    color: rgba(75, 74, 74, 0.918);
+}
+.footerDiv div:hover{
+    font-size: 1.1rem;
+    color:black;
+    
+}
+.footer{
     font-weight: 600;
 }
-.div1{
-    margin-left: 2rem;
-}
-.div1 span{
-    margin: 2.3rem;
-}
-.no{
-    padding-left: 3rem;
-}
-.he{
-    padding-left: 5rem;
-}
-.div2{
-    margin-top: 1.4rem;
-    margin-left: 1.1rem;
-}
-.div2 span{
-    margin: 3.3rem;
-}
-.li{
-    padding-left: 1.7rem;
-}
-.tu{
-    padding-left: 2.6rem;
-}
-.div3{
-    margin-top: 1.4rem;
-    margin-left: 1rem;
-}
-.div3 span{
-    margin: 3.5rem;
-}
-.press{
-    padding-left: 1.1rem;
-}
-.div4{
-    margin-left: 16.5rem;
-    margin-top: 1rem;
-}
-.div4 span{
-    margin: 3.5rem;
-}
-.pi{
-    padding-left: 2.5rem;
-}
-hr{
-    border: 1px solid black;
+.footerDiv1:hover{
+    font-size: none;
 }
